@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CAT_VID_VID" directorySegmentName="seg_0" id="60CB9394-2902-4048-1FFA-E6A6F7EC808C">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>845B37BD-EAC4-A47A-667A-B97984EFB8BD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BABEAAE-796B-37BF-4727-41816F5B4D3C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94CF9E7E-884F-6CC3-DC3D-5B4F9CF1C0B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

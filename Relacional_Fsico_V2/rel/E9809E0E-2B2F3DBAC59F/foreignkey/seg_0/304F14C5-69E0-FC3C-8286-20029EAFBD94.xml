@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="304F14C5-69E0-FC3C-8286-20029EAFBD94" containerWithKeyObject="14D1BECA-5A8D-23D0-D268-680CA8DC0D97" localFKIndex="922A778F-4442-C0F8-2873-51146F2B5461" name="R_PES_PES_FIS">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>68AEF8F8-263E-45BF-40E5-E5CBD0B663A7</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SGV_PESSOA_GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3BFAE96-CC5D-D0CF-3F82-78C8706F43BD</referredTableID>
+<keyObject>6F94390F-CC64-69D9-89CF-4F8F9BBADC22</keyObject>
+<referredKeyID>6F94390F-CC64-69D9-89CF-4F8F9BBADC22</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_genero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

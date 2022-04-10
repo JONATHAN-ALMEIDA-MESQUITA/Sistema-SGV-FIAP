@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04EBF918-8CFD-13AB-8DBE-239C422B2CD5" name="T_SGV_PESSOA_JURIDICA">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:18:55 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cnpj_pessoa" id="9D9F5407-5255-F948-91EC-BD0922FCFFE7">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:19:16 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fantasia" id="4266310E-29BF-592B-C210-E42D5A3B8F04">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:20:00 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pessoa" id="B06D0589-6237-D5B2-FFBB-5467CEA09B87">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:23:37 UTC</createdTime>
+<generatorID>61B52275-5E09-CEDB-7D55-F6B71C818858</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<referedAttribute>3445BC42-DECE-530E-8E17-7418761F08DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2AF36955-6850-2EE3-65CD-6B1DD3A5789A" name="T_SGV_PESSOA_JURIDICA PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:23:37 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B06D0589-6237-D5B2-FFBB-5467CEA09B87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

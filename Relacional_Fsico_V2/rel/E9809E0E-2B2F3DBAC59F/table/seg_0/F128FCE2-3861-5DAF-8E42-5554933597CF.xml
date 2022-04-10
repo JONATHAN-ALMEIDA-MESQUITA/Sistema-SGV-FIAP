@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F128FCE2-3861-5DAF-8E42-5554933597CF" name="T_SGV_PESSOA_JURIDICA">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>04EBF918-8CFD-13AB-8DBE-239C422B2CD5</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cnpj_pessoa" id="4F3916D2-FCED-E600-9544-0119ABF3C584">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>9D9F5407-5255-F948-91EC-BD0922FCFFE7</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_fantasia" id="8DF37F35-115B-7048-1B4E-8D1977666916">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>4266310E-29BF-592B-C210-E42D5A3B8F04</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pessoa" id="31EA67C1-C9B5-FE0F-91F9-FBAF5F837026">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>B06D0589-6237-D5B2-FFBB-5467CEA09B87</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4C640DA-2F23-3611-852B-86D0F41C3189" referredColumn="CCF59E73-45D4-05D9-096F-1649E2C96C8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADD04174-3306-F90E-5297-DFCF929B0804" name="T_SGV_PESSOA_JURIDICA_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>2AF36955-6850-2EE3-65CD-6B1DD3A5789A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EA67C1-C9B5-FE0F-91F9-FBAF5F837026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="930C3131-AB2E-AAD1-C91B-6BBD9F70D9CC" name="R_PES_PES_JUR">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>61B52275-5E09-CEDB-7D55-F6B71C818858</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31EA67C1-C9B5-FE0F-91F9-FBAF5F837026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

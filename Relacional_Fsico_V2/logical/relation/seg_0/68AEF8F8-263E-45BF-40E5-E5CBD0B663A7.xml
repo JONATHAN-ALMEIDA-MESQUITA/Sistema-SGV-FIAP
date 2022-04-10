@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_PES_PES_FIS" directorySegmentName="seg_0" id="68AEF8F8-263E-45BF-40E5-E5CBD0B663A7">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:21:07 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>60DDE66F-359C-764B-016D-7DFED578EAE1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE7D1FD4-8B19-CB3D-85EA-D2154F272F10</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BE0CDC9D-B5A2-440A-AB4D-49047A667848</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

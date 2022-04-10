@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3BFAE96-CC5D-D0CF-3F82-78C8706F43BD" name="T_SGV_PESSOA_GENERO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>EE7D1FD4-8B19-CB3D-85EA-D2154F272F10</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_genero" id="57F598A6-9902-B409-AC1C-1C6FB5494600">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>1983E7ED-8AA1-D991-1517-AC5826726FD4</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_genero" id="B0887B90-64F9-82A0-A57B-57546FE57CDD">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>16E9165F-0676-E726-8B4A-98BE8F388405</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_genero" id="182D2B45-C1C0-38DA-7CCA-441E7E6BC8D3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>F634EEBB-FD6D-D0C7-FE19-2B2BF08134F6</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F94390F-CC64-69D9-89CF-4F8F9BBADC22" name="T_SGV_PESSOA_GENERO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>60DDE66F-359C-764B-016D-7DFED578EAE1</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57F598A6-9902-B409-AC1C-1C6FB5494600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

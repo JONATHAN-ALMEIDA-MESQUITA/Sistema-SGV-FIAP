@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00EA9669-4A1D-5715-16ED-44863BE87447" name="T_SGV_CARGO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>B648D3EC-7D50-1082-50D6-F6F174448795</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cargo" id="0F1099E0-0E48-4FA5-F41A-10FC46879DD7">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>6402249A-1E78-D556-FB31-FB8FFAE8EC56</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cargo" id="0A4D5BFC-18AE-10C2-7F60-557161110264">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>483FAD1F-F5F0-B3C5-F100-733616E114FC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cargo" id="4FF5F1B1-66C1-33ED-7B35-EB4348FA2591">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>F987524E-1E5E-BCD9-B8D5-FA7FCAB04405</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_cargo" id="5AEDB666-79B9-7180-0A5A-B5321F2DD48B">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>ECA4020D-CCDA-F908-BFE0-E53AF4645F06</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42035B68-39D1-155B-11FA-5F494B41D9A4" name="T_SGV_CARGO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>15EB52EA-CF7F-DB8D-6AF6-0627C3839491</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F1099E0-0E48-4FA5-F41A-10FC46879DD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_VIDE_VISU_VIDE" directorySegmentName="seg_0" id="9B9EDD76-9D86-4DE8-0A54-1A7787B3CA7D">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>D507F4C9-D7C6-4272-EAC8-51F200135D52</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94CF9E7E-884F-6CC3-DC3D-5B4F9CF1C0B3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7F44A0E-744C-5505-2ADD-760635F4C369</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

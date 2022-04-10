@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34936338-B413-0C02-D754-32FEE1A130F9" name="T_SGV_PESSOA_TELEFONE">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>EA79C851-324E-6E9C-0BF6-02CADD47A505</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_telefone" id="6A3F5C4F-F276-D0B5-FF93-99C61D9D84B3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>CB51A816-7EA3-51A2-247B-737FBBC48B26</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_telefone" id="8D2DD381-7757-82F1-4C56-9FB64E8ADE9D">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Com DDD]]></commentInRDBMS>
+<generatorID>C11918BB-56DB-3C0E-C4E9-D94EF2FFCED5</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fg_telefone_principal" id="3EBE8984-C674-B09A-7BC2-AFC6DF840CF7">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>F2E5B959-EA6E-BC8A-7857-DA68F64274FA</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_telefone" id="06173530-2C80-DB81-4998-A76C7A6DEE9A">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>9BE3C0C6-B188-4E25-A3C8-791FA887800E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_telefone" id="89FB3AC3-44F0-F75C-B97B-5306AE5F0815">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>413ADB41-E0C7-0EDE-3F61-C555508149F9</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="25F73026-7C17-9137-9E4C-569659833615">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>27747FC9-8991-3E01-305D-A9531D57E04D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E99D113-C397-08A8-F5FE-20D1A9F1C264" referredColumn="87406F60-56AE-0264-65AA-FBDB8EC3536C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD3C7A80-F105-5BD0-CE08-480BFB100ABF" name="T_SGV_PESSOA_TELEFONE_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>11C9B983-7654-AE68-D9F6-56DE32692733</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A3F5C4F-F276-D0B5-FF93-99C61D9D84B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA407FF-CE6C-B087-7E61-DBFE35110C37" name="T_SGV_PESSOA_TELEFONE_T_SGV_PESSOA_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>C910E8EF-6625-1CD4-DE7F-AEBB473573EE</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25F73026-7C17-9137-9E4C-569659833615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

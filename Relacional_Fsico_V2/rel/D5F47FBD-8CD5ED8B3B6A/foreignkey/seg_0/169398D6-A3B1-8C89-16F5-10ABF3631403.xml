@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="169398D6-A3B1-8C89-16F5-10ABF3631403" containerWithKeyObject="49ACAFF3-E3AF-0470-BACC-F24CC7C5E631" localFKIndex="7CB29294-3323-A527-B7DF-476DB2980240" name="T_SGV_VISUALIZACAO_VIDEO_T_SVG_VIDEO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>9B9EDD76-9D86-4DE8-0A54-1A7787B3CA7D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SVG_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48D9167A-8691-9C3F-E1F6-B97D65A93168</referredTableID>
+<keyObject>29AA8F72-19D3-697B-86EB-5D0230F587D5</keyObject>
+<referredKeyID>29AA8F72-19D3-697B-86EB-5D0230F587D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_video</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

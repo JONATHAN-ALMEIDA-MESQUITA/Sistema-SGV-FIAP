@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8B6E62F-09A3-CA10-0523-2715E7E93B4D" containerWithKeyObject="C62FFF21-5487-C62C-745F-B4126EE1E2AE" localFKIndex="CB54FABF-52C0-A881-E245-7E2EEE84650E" name="R_CHAM_TIP_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>B348BB0E-7C24-ABD6-D6E9-93E1B5FDB06A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SGV_CHAMADO_TIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF62D70B-EF98-867A-2414-D40129EA46D2</referredTableID>
+<keyObject>4540C402-7597-4D09-FDDD-EDBCD11030F1</keyObject>
+<referredKeyID>4540C402-7597-4D09-FDDD-EDBCD11030F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tp_chamado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

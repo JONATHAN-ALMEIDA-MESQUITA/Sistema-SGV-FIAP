@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8CA5FD0-9263-6A83-5A63-91C9127E568A" containerWithKeyObject="7C7EFC35-1450-12E5-5766-0E7A19F605EB" localFKIndex="C1B0CFD0-1B53-80B6-BB18-FDF8BFA332E8" name="R_TIPO_LOGR_PES_END">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>DA58C562-BF3A-08CF-3625-3BE3B6AD6832</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SGV_TIPO_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08CC8DD4-AD76-7B82-7A51-CEC581A05813</referredTableID>
+<keyObject>8D064971-B631-D2AB-933C-88C461C202CF</keyObject>
+<referredKeyID>8D064971-B631-D2AB-933C-88C461C202CF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_logradouro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

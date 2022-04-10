@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_PES_PES_EMAIL" directorySegmentName="seg_0" id="401ACE32-1020-5DF2-0F5F-F5683EC0B3EB">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 19:01:47 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>04DAC865-F7E7-4ADA-FE6E-F8F13E098A33</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4AAC0C0-8704-DEF7-965B-A4E719401CF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE79719F-8551-4FEA-E9BC-385540F59F70</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

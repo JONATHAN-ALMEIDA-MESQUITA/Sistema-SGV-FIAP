@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC4BEDF3-65BD-2CFB-BC2C-14D8BB1C0C8A" containerWithKeyObject="7B8BF9D1-E707-2FCB-464D-43F25F261578" localFKIndex="059F4ED1-33AF-C7B7-8BE4-4A1925BA3E98" name="T_SGV_USUARIO_T_SGV_AVALICAO_VIDEO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>CAB96BDF-E725-D14A-106E-339592AAF35E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SGV_AVALICAO_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>636201EB-3986-B8B1-828F-CFC03CE919EE</referredTableID>
+<keyObject>7C7F18D2-DD8F-4FC8-FB2A-7668E11EDA33</keyObject>
+<referredKeyID>7C7F18D2-DD8F-4FC8-FB2A-7668E11EDA33</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_SVG_VIDEO_cd_video,T_SGV_USUARIO_cd_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

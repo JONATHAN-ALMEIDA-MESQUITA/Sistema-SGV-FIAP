@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="715CCFF7-9444-EF86-DBCE-4752C2E988C0" name="T_SGV_PESSOA">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>F4AAC0C0-8704-DEF7-965B-A4E719401CF0</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="87406F60-56AE-0264-65AA-FBDB8EC3536C">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>3445BC42-DECE-530E-8E17-7418761F08DE</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pessoa" id="B732E5C4-29A5-8B1F-B05B-9C9959E73208">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>D297DA60-03AA-4A02-11C2-A7CC0A220B96</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_USUARIO_cd_usuario" id="6EA30D92-8261-CAEE-9440-87D05121161E">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>9F9D918A-4F88-DFA5-56B9-F2BC80986DD5</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC6256D9-FA0F-86F6-CD94-2953A98C237A" referredColumn="96A7BB59-36F2-D540-94A6-DEC76F86AB37"/>
+</associations>
+</Column>
+<Column name="dt_nascimento" id="CC816938-A9FA-DB06-FFB8-14A712F6BBB3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>8F5394F6-91AC-47BA-DC05-0CF3081B65CE</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB37485E-F037-D752-2F63-6B0961766F8F" name="T_SGV_PESSOA_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>04DAC865-F7E7-4ADA-FE6E-F8F13E098A33</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87406F60-56AE-0264-65AA-FBDB8EC3536C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B67B36F4-D429-4719-B34B-7C4636EBE191" name="T_SGV_PESSOA__IDX">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B713531-EB37-DE51-38C3-7E6041075052</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6EA30D92-8261-CAEE-9440-87D05121161E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB4BAE6F-8A43-92EA-4E68-C48D3E589FAA" name="T_SGV_PESSOA_T_SGV_USUARIO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>4B713531-EB37-DE51-38C3-7E6041075052</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EA30D92-8261-CAEE-9440-87D05121161E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

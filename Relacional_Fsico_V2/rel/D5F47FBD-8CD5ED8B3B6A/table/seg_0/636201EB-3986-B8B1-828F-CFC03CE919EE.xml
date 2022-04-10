@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="636201EB-3986-B8B1-828F-CFC03CE919EE" name="T_SGV_AVALICAO_VIDEO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>E6F92D44-622D-C18D-95D4-F9B1AD97798C</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_SVG_VIDEO_cd_video" id="E3EFED51-788B-401F-1A87-2BC5358FAE5A">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>FF2B4E9F-0E52-B721-62B7-864A57FF6AAC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E790FC1-A9DF-70A0-EB5A-28F3B6BD2587" referredColumn="3B1C95B1-4F39-7AFC-B900-0534B60E83F9"/>
+</associations>
+</Column>
+<Column name="T_SGV_USUARIO_cd_usuario" id="F74525E2-4B82-3B26-30A8-D94819D2CD07">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>25803672-8EFA-AB66-0B8D-2298106A3738</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EB43D3B-9DC1-522B-DB92-5924CF6DBE77" referredColumn="96A7BB59-36F2-D540-94A6-DEC76F86AB37"/>
+</associations>
+</Column>
+<Column name="nt_avaliacao" id="27388081-60AF-9976-658B-8AEA32CFFD4A">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>0C63E1B0-86C9-A91D-83DA-7540A8396C6D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comentario" id="9E98159B-8B81-B68D-14CC-80C6A107A500">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>518AB5D9-044A-3361-E66A-52E53D45DA20</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_avaliacao" id="32F05DEB-90D9-350F-FA5F-9FD1EDD095CC">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>A35A66FB-5E5D-CE86-1C59-E8A6F7346ACC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C7F18D2-DD8F-4FC8-FB2A-7668E11EDA33" name="T_SGV_AVALICAO_VIDEO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>9993E2C6-9B6D-0DAE-89C4-1F7B95353D86</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EFED51-788B-401F-1A87-2BC5358FAE5A"/>
+<colUsage columnID="F74525E2-4B82-3B26-30A8-D94819D2CD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B4E2F5D-DDA4-2D49-4D72-6619D8C50394" name="T_SGV_AVALICAO_VIDEO__IDX">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CAB96BDF-E725-D14A-106E-339592AAF35E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F74525E2-4B82-3B26-30A8-D94819D2CD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E83155-4A67-6E0F-B69C-A876D001C859" name="T_SGV_AVALICAO_VIDEO__IDXv1">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0207C5C9-B531-8951-4D4E-A52F7479344A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E3EFED51-788B-401F-1A87-2BC5358FAE5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8D7E0CC-C11B-76B2-2C48-D8C19B4878B2" name="T_SGV_AVALICAO_VIDEO_T_SGV_USUARIO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>CAB96BDF-E725-D14A-106E-339592AAF35E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F74525E2-4B82-3B26-30A8-D94819D2CD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4950AC11-4B27-1D96-F8B5-3B6F1EAF9963" name="T_SGV_AVALICAO_VIDEO_T_SVG_VIDEO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>0207C5C9-B531-8951-4D4E-A52F7479344A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3EFED51-788B-401F-1A87-2BC5358FAE5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

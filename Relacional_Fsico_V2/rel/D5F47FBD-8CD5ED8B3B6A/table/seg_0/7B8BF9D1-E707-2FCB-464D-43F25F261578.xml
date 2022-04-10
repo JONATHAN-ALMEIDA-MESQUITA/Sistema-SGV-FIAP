@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B8BF9D1-E707-2FCB-464D-43F25F261578" name="T_SGV_USUARIO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>A7E35517-7A74-0FAB-0D22-289A394C5A13</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="96A7BB59-36F2-D540-94A6-DEC76F86AB37">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>2569B148-319B-C720-EC81-019DEF31388D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="24CD454D-507B-3D7C-73BE-C7A11F1098B9">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>23C2D90B-8111-26B6-B7FF-13C64F897654</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="E797C26F-0A0C-43D8-F163-5DF36085F61D">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>4B477DE6-90C9-47A5-E7BD-51FA6524BD02</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PESSOA_cd_pessoa" id="E44CDF48-9C89-3386-734D-92D61A48AFD7">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>D7A10450-B8C1-1375-E012-D26F1720CB4A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16C70B24-062D-4A30-83F5-2F57D33C4F03" referredColumn="87406F60-56AE-0264-65AA-FBDB8EC3536C"/>
+</associations>
+</Column>
+<Column name="T_SGV_AVALICAO_VIDEO_cd_video" id="33B2E453-AF07-4213-17E6-A5B9FF42B919">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>55D57F7A-FF66-CF12-5691-2AE038C49EEC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC4BEDF3-65BD-2CFB-BC2C-14D8BB1C0C8A" referredColumn="E3EFED51-788B-401F-1A87-2BC5358FAE5A"/>
+</associations>
+</Column>
+<Column name="T_SGV_AVALICAO_VIDEO_T_SGV_USUARIO_cd_usuario" id="D1F27CE8-320F-4A02-889D-E0322F88EE05">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>8216FA91-9566-A88E-0F28-96828FBD8B3A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC4BEDF3-65BD-2CFB-BC2C-14D8BB1C0C8A" referredColumn="F74525E2-4B82-3B26-30A8-D94819D2CD07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAD7BC1C-9190-1453-F313-77365DBE7875" name="T_SGV_USUARIO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>01B6F9CA-C72F-15D1-D38E-783810F95133</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A7BB59-36F2-D540-94A6-DEC76F86AB37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F13C4BC3-F346-4C22-6FBB-595AA017EAEF" name="T_SGV_USUARIO__IDX">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CAB96BDF-E725-D14A-106E-339592AAF35E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="33B2E453-AF07-4213-17E6-A5B9FF42B919"/>
+<colUsage columnID="D1F27CE8-320F-4A02-889D-E0322F88EE05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62789566-566E-2010-133A-B267B466A95E" name="T_SGV_USUARIO__IDXv1">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B713531-EB37-DE51-38C3-7E6041075052</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E44CDF48-9C89-3386-734D-92D61A48AFD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="059F4ED1-33AF-C7B7-8BE4-4A1925BA3E98" name="T_SGV_USUARIO_T_SGV_AVALICAO_VIDEO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>CAB96BDF-E725-D14A-106E-339592AAF35E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B2E453-AF07-4213-17E6-A5B9FF42B919"/>
+<colUsage columnID="D1F27CE8-320F-4A02-889D-E0322F88EE05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2033AFD3-CCAB-81C6-C968-AAF8F905A4EC" name="T_SGV_USUARIO_T_SGV_PESSOA_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>4B713531-EB37-DE51-38C3-7E6041075052</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E44CDF48-9C89-3386-734D-92D61A48AFD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

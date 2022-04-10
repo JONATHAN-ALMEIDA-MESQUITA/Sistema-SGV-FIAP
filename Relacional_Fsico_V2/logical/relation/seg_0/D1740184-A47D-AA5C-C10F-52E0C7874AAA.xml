@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CHAM_STAT_CHAM" directorySegmentName="seg_0" id="D1740184-A47D-AA5C-C10F-52E0C7874AAA">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 21:20:14 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>0A2B65A5-3D8B-60B6-FE69-4DDF931BE6F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48455AC6-37B7-8A78-2879-C5C6A3BF12EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99007B73-43ED-03D7-FA5F-A676612EDF85</targetEntity>
+<transferable>true</transferable>
+</Relation>

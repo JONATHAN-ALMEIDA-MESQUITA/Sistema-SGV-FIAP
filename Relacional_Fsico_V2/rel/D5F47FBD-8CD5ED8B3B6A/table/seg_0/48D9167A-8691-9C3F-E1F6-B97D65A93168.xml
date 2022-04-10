@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48D9167A-8691-9C3F-E1F6-B97D65A93168" name="T_SVG_VIDEO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>94CF9E7E-884F-6CC3-DC3D-5B4F9CF1C0B3</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_video" id="3B1C95B1-4F39-7AFC-B900-0534B60E83F9">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>57723AFD-F0AF-9808-2D23-81B89FD5645E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_categoria" id="1E86D51C-BEFE-BCC5-1B41-A22E759B597B">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>2D4602A6-C1BA-4381-ABCC-10A6A0EEC63D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_video" id="B0091596-5B7B-E489-FDD0-FB31C208A79D">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>BD0E99BB-BAB1-D40F-709F-C9D52F62A9D3</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_video" id="612AC41F-AA72-8396-655D-3C92CCFDF7ED">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>6116C489-663E-14B0-0973-C9F48BF4BC95</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_PRODUTO_cd_produto" id="3ED45ADF-FA2D-A2D9-C647-235B890FCC83">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>DEFFF646-E8B1-9BA9-2376-19EC76A3ED5D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA086283-F44B-75EE-B5AD-B73B7BA0342F" referredColumn="721BC3FF-B17B-61CF-EC82-98BDC1DA8DC7"/>
+</associations>
+</Column>
+<Column name="st_video" id="715BDBDB-3B09-6408-8582-6FCE8D9B64E9">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[- "A" (Ativo)
+- "I" (Inativo)]]></commentInRDBMS>
+<generatorID>1C9F8FC9-5FFB-27C7-DAAE-91CE82708A1C</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGV_CAT_VIDEO_cd_cat_video" id="14A9EFB8-E084-E728-DDD4-C849389F2221">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>694C4E90-9D08-E8D4-FA48-186338937B5B</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56E4EE4A-B218-F5F1-C111-38F4E5BFE46F" referredColumn="EB24D5E4-36B8-6E12-736C-A3864688D5DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29AA8F72-19D3-697B-86EB-5D0230F587D5" name="T_SVG_VIDEO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>D507F4C9-D7C6-4272-EAC8-51F200135D52</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1C95B1-4F39-7AFC-B900-0534B60E83F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="401A9B6E-92F4-B255-1789-86ECEDC59BBE" name="T_SVG_VIDEO__IDX">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0207C5C9-B531-8951-4D4E-A52F7479344A</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="7C76EF34-F9A9-539F-7A3A-6B35AAB5EB16" name="T_SVG_VIDEO_T_SGV_CAT_VIDEO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>60CB9394-2902-4048-1FFA-E6A6F7EC808C</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14A9EFB8-E084-E728-DDD4-C849389F2221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A489AD6-00FA-1A45-FC36-061384F4C3DA" name="T_SVG_VIDEO_T_SGV_PRODUTO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>34AF2124-3531-B7CF-2BF3-DA7FF3B60E29</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ED45ADF-FA2D-A2D9-C647-235B890FCC83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7F44A0E-744C-5505-2ADD-760635F4C369" name="T_SGV_VISUALIZACAO_VIDEO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_visualizacao" id="A5013B3A-2F2A-3B0C-0583-900F48CAF5EB">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>11FE46B3-7C42-0D9F-12D4-4679368D9D6B</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_visualizacao" id="B62229FE-CFE8-82DF-AD34-98DB15A3CCBA">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>8BC90336-3837-1CF4-6FA7-0CBC062AB937</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_video" id="14E560FF-9952-90B9-7DC1-7E672EF9E1CD">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<generatorID>9B9EDD76-9D86-4DE8-0A54-1A7787B3CA7D</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>A74EE9B6-6C75-B76D-5167-A3241CD0F22A</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<referedAttribute>57723AFD-F0AF-9808-2D23-81B89FD5645E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="B027DA52-FE40-0B39-0A43-D1920B88D5D3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 14:02:27 UTC</createdTime>
+<generatorID>94AC42BA-3A9F-34C4-9E14-01649B4740E2</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<referedAttribute>2569B148-319B-C720-EC81-019DEF31388D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1763A7F1-9210-1825-2A59-B4E0807AF74B" name="T_SGV_VISUALIZACAO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5013B3A-2F2A-3B0C-0583-900F48CAF5EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

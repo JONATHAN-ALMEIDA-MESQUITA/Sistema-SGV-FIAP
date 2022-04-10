@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69E870D0-AAFB-E30F-9055-F6890B4D1AE9" name="T_SGV_PRODUTO_CAT">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cat_ produto" id="53B54236-A12A-BB5A-7F9B-7EEDE11D0A1B">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>3FD12921-67E3-27D0-BB9D-86C50FD32704</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_categoria" id="0EE6C99F-0273-51B0-BC96-DD59F6437D5E">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>C36D43BC-DF88-B4D4-C005-AB9A01310608</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_categoria" id="2D08E8B7-8237-183B-08AB-346BE8DEF950">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[A (Ativo)
+I (Inativo)]]></commentInRDBMS>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>D39EE8C3-7DAB-EDA0-5D32-BF206E2B63B5</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="BA38B006-6111-8BF2-37FF-2394F32E638E">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>B46CE45E-C272-D888-ED43-EE70E901EBE5</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="07166679-1998-939E-7246-85F873A478FE">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<importedID>3BC0252E-2CCE-1C9D-4A1D-2DB9A5A6C158</importedID>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2C1896D-7908-A817-8FD0-D8300A5F8FAD" name="T_SGV_CAT_PRODUTO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 13:50:38 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53B54236-A12A-BB5A-7F9B-7EEDE11D0A1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

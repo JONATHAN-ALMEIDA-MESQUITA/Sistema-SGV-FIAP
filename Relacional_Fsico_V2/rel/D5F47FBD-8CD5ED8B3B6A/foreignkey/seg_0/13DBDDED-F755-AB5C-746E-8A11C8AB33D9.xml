@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="13DBDDED-F755-AB5C-746E-8A11C8AB33D9" containerWithKeyObject="F090B581-EEE3-0955-0F27-D5FE4EBDAD21" localFKIndex="17214204-599E-0B98-D9AF-455D098E2441" name="T_SGV_PESSOA_ENDERECO_T_SGV_TIPO_LOGRADOURO_FK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>DA58C562-BF3A-08CF-3625-3BE3B6AD6832</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<referredTableLongName>T_SGV_TIPO_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2D0FE03D-0305-B891-2DC6-312FF0F743F1</referredTableID>
+<keyObject>1EDBE1E0-7DBA-CB8C-42A8-6C88ABC6F7F3</keyObject>
+<referredKeyID>1EDBE1E0-7DBA-CB8C-42A8-6C88ABC6F7F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_logradouro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

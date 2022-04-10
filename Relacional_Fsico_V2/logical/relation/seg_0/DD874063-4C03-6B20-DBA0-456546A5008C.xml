@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_DEP_FUNC" directorySegmentName="seg_0" id="DD874063-4C03-6B20-DBA0-456546A5008C">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 15:10:14 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>56B8BFDD-869F-7719-DDF9-2FE6B85C7926</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A35FF86-D320-F5E9-BD12-287468127605</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA857CFD-CBD4-C991-E0F9-3B3E6C47863F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

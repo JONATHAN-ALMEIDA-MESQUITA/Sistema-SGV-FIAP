@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14D1BECA-5A8D-23D0-D268-680CA8DC0D97" name="T_PESSOA_FISICA">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>BE0CDC9D-B5A2-440A-AB4D-49047A667848</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cpf_pessoa" id="8A6F494A-3144-E9E8-ECDE-B83F455AED21">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>F169A546-7545-9301-BEC2-9E2D92C5CE10</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_genero" id="74914314-4B56-777F-428E-F70E3EEAEAE3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>A5B6E6A1-B121-67C4-F6D9-480EDAA46287</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="304F14C5-69E0-FC3C-8286-20029EAFBD94" referredColumn="57F598A6-9902-B409-AC1C-1C6FB5494600"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="984B45A4-D115-4299-7C77-1F31DE204620">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>1EA8469E-C684-70CB-1E67-EA2AD8919439</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D19A1D4-CDEE-9E83-98C8-4FCAD6A1DF66" referredColumn="CCF59E73-45D4-05D9-096F-1649E2C96C8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61F0EA00-1FFC-EBE8-D099-DC64B7F39D9B" name="T_PESSOA_FISICA_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>D7B8C625-AFFD-CD57-C066-DA763EF89508</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984B45A4-D115-4299-7C77-1F31DE204620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="922A778F-4442-C0F8-2873-51146F2B5461" name="R_PES_PES_FIS">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>68AEF8F8-263E-45BF-40E5-E5CBD0B663A7</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74914314-4B56-777F-428E-F70E3EEAEAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD9A6C62-46BB-44D9-4F46-AEB3FAB38158" name="R_PES_PES_FISv1">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>E56317B0-BC4C-A692-CA24-B941143F4937</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984B45A4-D115-4299-7C77-1F31DE204620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

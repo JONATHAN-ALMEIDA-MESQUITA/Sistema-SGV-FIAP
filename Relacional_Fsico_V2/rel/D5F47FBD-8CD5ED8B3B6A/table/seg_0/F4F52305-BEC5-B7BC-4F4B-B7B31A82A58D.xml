@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F52305-BEC5-B7BC-4F4B-B7B31A82A58D" name="T_SGV_CHAMADO_STATUS">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>48455AC6-37B7-8A78-2879-C5C6A3BF12EB</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_chamado_status" id="D22C8CD1-8BE9-8485-252A-6DA715C9FC68">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>E6D68CA1-5FFD-DD80-A400-2C902EC61BA1</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_chamado_status" id="8547A8A0-17D0-7643-2DFA-84FCB8F917BE">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[“A” (aberto) e o primeiro status criado no início
+“E” (em atendimento)
+“C” (cancelado)”
+“F” (fechado com sucesso)
+“X” (fechado com insatisfação do cliente)]]></commentInRDBMS>
+<generatorID>1769DFC8-E3F1-E3E6-ECDA-D89AA0046DE1</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93C4BE15-35D4-1AEE-077A-126B56EFBD1E" name="T_SGV_CHAMADO_STATUS_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:13:11 UTC</createdTime>
+<generatorID>0A2B65A5-3D8B-60B6-FE69-4DDF931BE6F7</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D22C8CD1-8BE9-8485-252A-6DA715C9FC68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

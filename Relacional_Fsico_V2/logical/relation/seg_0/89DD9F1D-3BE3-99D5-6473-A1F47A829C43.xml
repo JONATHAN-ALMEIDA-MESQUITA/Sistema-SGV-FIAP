@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CARG_FUNC" directorySegmentName="seg_0" id="89DD9F1D-3BE3-99D5-6473-A1F47A829C43">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 19:32:18 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>15EB52EA-CF7F-DB8D-6AF6-0627C3839491</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B648D3EC-7D50-1082-50D6-F6F174448795</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA857CFD-CBD4-C991-E0F9-3B3E6C47863F</targetEntity>
+<transferable>true</transferable>
+</Relation>

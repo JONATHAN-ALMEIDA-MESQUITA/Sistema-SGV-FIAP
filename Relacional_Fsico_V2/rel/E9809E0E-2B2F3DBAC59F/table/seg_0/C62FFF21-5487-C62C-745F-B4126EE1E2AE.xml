@@ -1,0 +1,271 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62FFF21-5487-C62C-745F-B4126EE1E2AE" name="T_SGV_CHAMADO">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>99007B73-43ED-03D7-FA5F-A676612EDF85</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_chamado" id="8570E981-E53C-D56B-DC66-1A5E5B8AE143">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>4B5601A0-AF6C-945B-D9FA-D27DC0D710B9</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_hr_abertura" id="89804A6D-6A87-058D-C27B-71DD6DEDC15D">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>8307BD3B-D9DF-0912-E8E5-622097455FD8</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_hr_atendimento" id="6AC53F2F-D71E-C286-1E9C-42E2B65AA6B8">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>19AEFF0E-E8AA-98A8-F48F-16ACE2A34FC0</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nt_satisfacao" id="00BB3CEF-618E-02EE-505B-0A084B8D05A0">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>AF229CCF-56CA-4E6F-7B93-F924B44C33E7</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tm_total_atendimento" id="620EBA87-56CC-3F0B-A91D-77D7F95C5711">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>0BCD61F7-1565-B628-F1A2-4E69A2F4544A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_chamado" id="6BDBC9A5-DBB6-D74C-0205-8AD24E2EA762">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>1ABCF3D3-16CA-8D8E-5E19-68F1AF25EEAC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_retorno_chamado" id="5D86EB5A-1FD8-0163-3BB8-0B8826A44AA5">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>E6DEA56C-9717-5EB3-2AF7-DFFC28504CF0</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_chamado" id="C5E04F82-A65B-E02E-43F1-1BE26CB2CCF7">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>20F2E27E-87AB-95FA-320E-5A6656867DB6</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8B6E62F-09A3-CA10-0523-2715E7E93B4D" referredColumn="8E667919-C904-D902-0980-9D2F552DA0F7"/>
+</associations>
+</Column>
+<Column name="cd_chamado_status" id="ECD3D912-47C9-2AC5-C236-CE201E1AE46A">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>A4E95DD8-2A75-667C-B0B0-3CA905172730</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4DEB8AD-3A21-35F8-FA43-A7C156444749" referredColumn="1C82BEBC-E89B-B2FE-2552-3B3D3B3CDBC9"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="73EF2211-2935-4D52-61D3-AF60683DB182">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>4925756B-2356-C395-F4C2-30C607AB3AEC</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<ownDataTypeParameters>,18,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDC2B68A-600A-46F9-1A10-08FBE7507BA2" referredColumn="6A462751-EEDD-65EC-7E0E-58BA23615CBB"/>
+</associations>
+</Column>
+<Column name="cd_produto" id="BC02C2A8-8E15-630D-FAF8-2A2370AD8B6E">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>C4AAA31A-D569-B22B-62E4-9701B1DC90F5</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F89D7971-D44B-1DDC-2A3D-3283C2730170" referredColumn="B7483587-459F-70FC-FF25-5028C5B34A31"/>
+</associations>
+</Column>
+<Column name="cd_funcionario" id="AA463AE7-DCD7-35AF-FC78-7988244DE66F">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>670B94D2-E607-9904-0C77-F4F9362FE58E</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5ABD339-2BB1-2DEE-5CF0-98AFE01CF488" referredColumn="F6766A9D-2284-B4EF-64A9-626CE25BDD96"/>
+</associations>
+</Column>
+<Column name="ds_solicitacao_chamado" id="66C4E5E2-9A52-936D-C163-1153984E92E3">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>E8EB7347-E893-8CB8-BE2E-7FC543546901</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_resolucao_chamado" id="55F140E1-E734-9F0D-4383-A3A16351ECB6">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>B8964661-3708-7234-CAFC-B1F02D024BD3</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20000</dataTypeSize>
+<ownDataTypeParameters>20000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22162C52-F23E-03F0-873D-9E4E8D1B0B98" name="T_SGV_CHAMADO_PK">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>12A44391-E440-2932-3B14-443AE1AC10DA</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8570E981-E53C-D56B-DC66-1A5E5B8AE143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15F45E65-724E-3565-ED1F-381F8BDDE037" name="R_CHAM_STAT_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>D1740184-A47D-AA5C-C10F-52E0C7874AAA</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD3D912-47C9-2AC5-C236-CE201E1AE46A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB54FABF-52C0-A881-E245-7E2EEE84650E" name="R_CHAM_TIP_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>B348BB0E-7C24-ABD6-D6E9-93E1B5FDB06A</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E04F82-A65B-E02E-43F1-1BE26CB2CCF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="287042F6-14C8-023E-14CD-184A88205360" name="R_CLIE_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>6CEE2FAC-0D8F-6B92-EAFA-0A9ECCDEA3BE</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73EF2211-2935-4D52-61D3-AF60683DB182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0FC3E6B-BA82-A620-2B05-F21AF88B01C8" name="R_FUNC_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>03933867-33F3-9DF9-CE35-146591FDE846</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA463AE7-DCD7-35AF-FC78-7988244DE66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD7DDD3E-F54A-7A52-80D3-90F55244CCFC" name="R_PROD_CHAM">
+<createdBy>kenny</createdBy>
+<createdTime>2022-03-19 16:43:06 UTC</createdTime>
+<generatorID>7A1AA12D-51E5-70F1-461B-184D287DFAE4</generatorID>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC02C2A8-8E15-630D-FAF8-2A2370AD8B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

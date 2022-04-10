@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_PES_PES_JUR" directorySegmentName="seg_0" id="61B52275-5E09-CEDB-7D55-F6B71C818858">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 18:23:37 UTC</createdTime>
+<ownerDesignName>Relacional_Fsico_V2</ownerDesignName>
+<engineerTo>
+<item key="E9809E0E-6795-5452-2006-2B2F3DBAC59F" value="true"/>
+<item key="D5F47FBD-518E-E872-E37A-8CD5ED8B3B6A" value="true"/>
+</engineerTo>
+<sourcePk>04DAC865-F7E7-4ADA-FE6E-F8F13E098A33</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4AAC0C0-8704-DEF7-965B-A4E719401CF0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>04EBF918-8CFD-13AB-8DBE-239C422B2CD5</targetEntity>
+<transferable>true</transferable>
+</Relation>

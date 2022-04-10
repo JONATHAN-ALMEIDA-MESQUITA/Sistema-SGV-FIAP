@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Relacional_Fsico_V2" id="A1DCD5D7-5AFD-3F49-9D32-A47AE8A46EB6" version="3.5">
+<createdBy>Administrator</createdBy>
+<createdTime>2022-03-14 13:26:33 UTC</createdTime>
+<ownerDesignName>SGV_MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A1DCD5D7-5AFD-3F49-9D32-A47AE8A46EB6</designId>
+</OSDM_Design>
